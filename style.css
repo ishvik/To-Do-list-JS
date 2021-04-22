@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("p3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.main-container{
+    background-color: black;
+    border-radius: 2%;
+    opacity: 0.9;
+    height: 100vh;
+    width: 40vw;
+    text-align: center;
+    margin: auto;
+    border: 2px solid whitesmoke;
+}
+
+.main-container .input-container{
+    height: 25vh;
+    padding-top: 2%;
+}
+
+.main-container .input-container h1{
+    color: green;
+    font-style: oblique;
+}
+
+.main-container .input-container input{
+    font-size: 1.5rem;
+    height: 8vh;
+    border: none;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.task-container{
+    border: 2px solid blue;
+    width: 30vw;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.task-container .task-list li{
+    list-style-image: url("p2.jpg");
+    font-weight: bold;
+    color: darkgrey;
+    font-size: 2.5rem;
+    position: relative;
+}
